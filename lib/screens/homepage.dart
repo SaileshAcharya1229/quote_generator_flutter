@@ -33,14 +33,14 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const Spacer(),
                 Text(
-                  quote?.q ?? "....",
+                  quote?.q ?? "Different Quotes Here...",
                   style: const TextStyle(
                       fontSize: 30,
                       fontFamily: 'monospace',
                       color: Colors.white54),
                 ),
                 Text(
-                  quote?.a ?? ".........",
+                  quote?.a ?? "Writer!!!",
                   style: const TextStyle(
                     fontFamily: 'serif',
                     fontSize: 20,
